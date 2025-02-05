@@ -19,6 +19,7 @@
     let initialAnalysisResult = null;
     let initialAnalysisLoading = true;
     onMount(() => {
+        document.title = "digiSmart | Chat";
         inputElement = document.getElementById("userInput");
         inputElement.focus(); 
         messageLog.push({role: "user", parts: [{text: `Hey! Could you help me with my cybersecurity problems?`}]});
