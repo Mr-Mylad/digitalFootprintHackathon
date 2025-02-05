@@ -25,6 +25,6 @@
 		"marked": "^15.0.4"
 	},
 	"engines": {
-  		"node": "x.x"
+  		"node": "18.x"
 	}
 }
